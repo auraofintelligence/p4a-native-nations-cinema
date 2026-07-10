@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Site Map — Every Room | Native Nations Lab</title>
-  <meta name="description" content="Every public room of the Native Nations lab in one clickable tree. Works fully without JavaScript — the low-bandwidth front door.">
+  <title>Site Map Tree — Every Room | Native Nations Lab</title>
+  <meta name="description" content="Every public room of the Native Nations lab in one glowing, clickable tree. Works fully without JavaScript — the low-bandwidth front door.">
   <meta name="theme-color" content="#1C0F05">
   <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
   <link rel="stylesheet" href="../styles.css?v=20260710-fires">
@@ -25,70 +25,94 @@
 </header>
   <div class="site-layer-strip" aria-label="Page purpose">
     <strong>The no-JavaScript front door</strong>
-    <span>Every room on the site, as plain links. If you are on a slow connection or an old device, this page is the whole site's index and always will be.</span>
+    <span>Every room on the site, as one glowing tree of plain links. On a slow connection or an old device, this page is the whole site's index — and always will be.</span>
   </div>
   <main id="main">
-    <section class="hero page-hero">
+    <section class="hero page-hero site-map-hero">
       <div class="hero-content reveal">
-        <p class="eyebrow">Start here / site map</p>
+        <p class="eyebrow">Start here / navigation tree</p>
         <h1>Every room, one tree.</h1>
-        <p class="hero-copy">Eleven rooms, four sections, no scripts required. Gold rooms hold the cited record; purple rooms hold P4A proposals to react to.</p>
+        <p class="hero-copy">Eleven rooms on one seam. The spine runs gold through the record, purple through the proposals, and gold again where the pathways hand everything to you. Open a branch, follow the links, keep your bearings.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#branch-start">Start here</a>
+          <a class="button button-secondary" href="#branch-record">The record</a>
+          <a class="button button-secondary" href="#branch-proposals">The proposals</a>
+        </div>
       </div>
     </section>
-    <section class="section" aria-label="Site map tree">
-      <div class="page-shell">
-        <div class="page-copy" style="width:min(100%,var(--max));margin:0 auto">
 
-          <div class="feature-panel panel-record">
-            <p class="eyebrow">01 · Start here</p>
-            <h2>Doors and ground truth</h2>
-            <ul>
-              <li><a href="../index.html">Home</a> — the question, the two registers, the invitation.</li>
-              <li><a href="seams.html">The seams</a> — provenance, corrections log, exactly what is provisional.</li>
-              <li><a href="site-map.html" aria-current="page">Site map</a> — this page.</li>
-            </ul>
-          </div>
+    <section class="section site-map-section" aria-label="Clickable site map">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">Pick a branch</p><h2>The tree keeps the registers honest.</h2></div>
+        <p>Gold-edged branches hold the cited record; the purple-stitched branch holds P4A proposals to react to. The map is deliberately human-readable so any fork can see how the rooms fit together.</p>
+      </div>
 
-          <div class="feature-panel panel-record">
-            <p class="eyebrow">02 · The record — established, cited</p>
-            <h2>What generations already won</h2>
-            <ul>
-              <li><a href="instruments.html">Rights instruments</a> — UNDRIP (Articles 3, 19, 31, 32 quoted), FPIC, ILO Convention 169, the Nagoya Protocol, the WIPO treaty on genetic resources.</li>
-              <li><a href="data-sovereignty.html">Indigenous data sovereignty</a> — the CARE Principles, the First Nations principles of OCAP®, Maiam nayri Wingara, Te Mana Raraunga, USIDSN, Local Contexts TK &amp; BC Labels.</li>
-              <li><a href="treaty-atlas.html">Treaty atlas — world edition</a> — living, contested, broken and unwritten agreements; the five-question lens; the kintsugi shelf.</li>
-            </ul>
-          </div>
+      <nav class="map-jump reveal" aria-label="Site map branch jumps">
+        <a href="#branch-start">Start here</a>
+        <a href="#branch-record">The record</a>
+        <a href="#branch-proposals">The proposals</a>
+        <a href="#branch-pathways">The pathways</a>
+        <a href="#branch-family">Family &amp; repository</a>
+      </nav>
 
-          <div class="feature-panel panel-proposal">
-            <p class="eyebrow">03 · The proposals — react, revise, refuse</p>
-            <h2>Patterns offered, not positions held</h2>
-            <ul>
-              <li><a href="compute.html">Sovereign compute</a> — the L0–L3 gradient: personal devices, community kiosks, a community-owned rack, and the hyperscale cloud made optional.</li>
-              <li><a href="c-hour.html">The C-Hour</a> — one verified hour of contribution = one Community-Hour; mobilising the care economy without monetising it.</li>
-              <li><a href="reciprocity-treaty.html">Towards a reciprocity treaty</a> — the kintsugi protocol for broken agreements and the four-rung ladder from local ledgers to a global weave.</li>
-            </ul>
-          </div>
+      <div class="kintsugi-seam" aria-hidden="true">
+        <svg viewBox="0 0 1200 46" preserveAspectRatio="none" focusable="false">
+          <defs><linearGradient id="seamGoldM" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffd66e"/><stop offset=".5" stop-color="#fff3d6"/><stop offset="1" stop-color="#ff9d4d"/></linearGradient></defs>
+          <path class="seam-path" pathLength="1" stroke="url(#seamGoldM)" d="M0 22 L120 26 L230 16 L320 28 L430 20 L520 30 L630 14 L740 24 L850 18 L940 30 L1050 20 L1130 26 L1200 22"/>
+          <path class="seam-path seam-branch" pathLength="1" stroke="url(#seamGoldM)" d="M230 16 L244 5"/>
+          <path class="seam-path seam-branch" pathLength="1" stroke="url(#seamGoldM)" d="M520 30 L506 42"/>
+          <path class="seam-path seam-branch" pathLength="1" stroke="url(#seamGoldM)" d="M630 14 L644 4"/>
+          <path class="seam-path seam-branch" pathLength="1" stroke="url(#seamGoldM)" d="M940 30 L954 42"/>
+          <path class="seam-light" pathLength="1" d="M0 22 L120 26 L230 16 L320 28 L430 20 L520 30 L630 14 L740 24 L850 18 L940 30 L1050 20 L1130 26 L1200 22"/>
+        </svg>
+      </div>
 
-          <div class="feature-panel panel-record">
-            <p class="eyebrow">04 · The pathways — yours</p>
-            <h2>Where you take over</h2>
-            <ul>
-              <li><a href="onboard.html">Add your nation</a> — self-onboarding on your own terms: fork, entry template, agent file, or decline.</li>
-              <li><a href="abundance.html">Joyful responsible abundance</a> — the reframe: who the freed hours belong to, and the three threat sources held calmly at once.</li>
-            </ul>
-          </div>
+      <div class="site-map-tree reveal">
+        <details class="map-branch panel-record" id="branch-start" open>
+          <summary><span>01</span><strong>Start here</strong><small>The doorway, the ground rules and the honest seams of the whole build.</small></summary>
+          <ul>
+            <li><a href="../index.html">Home</a><em>The question, the two registers, the standing commitments and the invitation.</em></li>
+            <li><a href="seams.html">The Seams</a><em>Provenance room by room, the permanent corrections log, and exactly what is provisional.</em></li>
+            <li><a href="site-map.html" aria-current="page">Site Map Tree</a><em>This page — the no-JavaScript index of everything.</em></li>
+          </ul>
+        </details>
 
-          <div class="feature-panel">
-            <p class="eyebrow">Repository and family</p>
-            <h2>Outside the site</h2>
-            <ul>
-              <li><a href="https://github.com/auraofintelligence/p4a-native-nations-cinema">The repository</a> — fork it, file issues, read the licence and the agent onboarding file.</li>
-              <li><a href="https://auraofintelligence.github.io/p4a-xyz-cinema/">P4A — the Australian workbench</a> — where this design family began.</li>
-              <li><a href="https://auraofintelligence.github.io/p4a-oceania-cinema/">P4A Oceania</a> — the regional expansion lab.</li>
-            </ul>
-          </div>
+        <details class="map-branch panel-record" id="branch-record" open>
+          <summary><span>02</span><strong>The record</strong><small>Established instruments, quoted exactly and cited. Gold register.</small></summary>
+          <ul>
+            <li><a href="instruments.html">Rights Instruments</a><em>UNDRIP Articles 3, 19, 31 and 32 quoted verbatim; FPIC; ILO Convention 169; the Nagoya Protocol; the WIPO treaty on genetic resources.</em></li>
+            <li><a href="data-sovereignty.html">Indigenous Data Sovereignty</a><em>The CARE Principles, the First Nations principles of OCAP®, Maiam nayri Wingara, Te Mana Raraunga, USIDSN and the Local Contexts TK &amp; BC Labels.</em></li>
+            <li><a href="treaty-atlas.html">Treaty Atlas — World Edition</a><em>Living, contested, broken and unwritten agreements; the five-question lens; the kintsugi shelf for broken promises.</em></li>
+          </ul>
+        </details>
 
-        </div>
+        <details class="map-branch panel-proposal" id="branch-proposals" open>
+          <summary><span>03</span><strong>The proposals</strong><small>P4A's own provisional patterns. Purple register — react, revise, refuse.</small></summary>
+          <ul>
+            <li><a href="compute.html">Sovereign Compute</a><em>The L0–L3 gradient: personal devices, community kiosks, a community-owned rack — and the hyperscale cloud made optional.</em></li>
+            <li><a href="c-hour.html">The C-Hour</a><em>One verified hour of contribution = one Community-Hour. Mobilising the care economy, never monetising it.</em></li>
+            <li><a href="reciprocity-treaty.html">Towards a Reciprocity Treaty</a><em>The kintsugi protocol for broken agreements and the four-rung ladder from local ledgers to a global weave.</em></li>
+          </ul>
+        </details>
+
+        <details class="map-branch panel-record" id="branch-pathways" open>
+          <summary><span>04</span><strong>The pathways</strong><small>Where a nation, a person or a fork takes over. No funnels, no asks.</small></summary>
+          <ul>
+            <li><a href="onboard.html">Add Your Nation</a><em>Self-onboarding on your own terms: fork the lab, the verbatim entry template, the agent file — or decline, equally honoured.</em></li>
+            <li><a href="abundance.html">Joyful Responsible Abundance</a><em>The reframe: who the freed hours belong to, and the threats from ourselves, our technologies and the cosmos held calmly at once.</em></li>
+          </ul>
+        </details>
+
+        <details class="map-branch" id="branch-family" open>
+          <summary><span>05</span><strong>Family &amp; repository</strong><small>The ripple this chapter belongs to, and the fork-ready source.</small></summary>
+          <ul>
+            <li><a href="https://github.com/auraofintelligence/p4a-native-nations-cinema">The repository</a><em>Fork it, file issues, add your nation's entry, or take the pattern home.</em></li>
+            <li><a href="https://github.com/auraofintelligence/p4a-native-nations-cinema/blob/main/ONBOARD_WITH_AN_AGENT.md">Onboard with an agent</a><em>A pasteable prompt so your own AI assistant can build your nation's version, under your review.</em></li>
+            <li><a href="../LICENCE.md">The licence</a><em>Public source: free non-commercial use with credit; commercial rights reserved; nations' entries stay their own.</em></li>
+            <li><a href="https://auraofintelligence.github.io/p4a-xyz-cinema/">P4A — the Australian workbench</a><em>Where this design family began, treaty atlas and all.</em></li>
+            <li><a href="https://auraofintelligence.github.io/p4a-oceania-cinema/">P4A Oceania</a><em>The regional expansion lab — the ripple before this one.</em></li>
+          </ul>
+        </details>
       </div>
     </section>
   </main>

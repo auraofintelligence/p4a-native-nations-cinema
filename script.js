@@ -17,6 +17,22 @@ if ('IntersectionObserver' in window) {
   reveals.forEach(showReveal);
 }
 
+/* Kintsugi seams draw themselves in gold as they enter the viewport.
+   Without JS (or with reduced motion) the CSS shows them fully drawn. */
+const seams = document.querySelectorAll('.kintsugi-seam');
+if ('IntersectionObserver' in window) {
+  const seamObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('is-drawn');
+      seamObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.6 });
+  seams.forEach((el) => seamObserver.observe(el));
+} else {
+  seams.forEach((el) => el.classList.add('is-drawn'));
+}
+
 const normaliseNavPath = (value) => {
   const url = new URL(value, location.href);
   return url.pathname.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
