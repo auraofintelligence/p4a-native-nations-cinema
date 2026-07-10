@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="A dark landscape of many small fires joined by fine gold seams, no fire at the centre">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="0%" r="120%">
+      <stop offset="0%" stop-color="#2a1507"/>
+      <stop offset="45%" stop-color="#170c03"/>
+      <stop offset="100%" stop-color="#0a0503"/>
+    </radialGradient>
+    <radialGradient id="horizon" cx="80%" cy="8%" r="60%">
+      <stop offset="0%" stop-color="#6f22c8" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#6f22c8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fire" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3d6" stop-opacity=".95"/>
+      <stop offset="30%" stop-color="#ffd66e" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#ff9d4d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#horizon)"/>
+  <g stroke="#ffd66e" stroke-opacity=".22" stroke-width="1.4" fill="none">
+    <path d="M120 640 L310 570 L455 660 L620 540 L780 615 L935 505 L1120 600 L1300 520 L1480 585"/>
+    <path d="M210 760 L455 660 L560 780 L780 615 L900 745 L1120 600 L1260 720 L1450 655"/>
+    <path d="M310 570 L390 430 L620 540 M935 505 L1010 380 M1300 520 L1380 400"/>
+    <path d="M60 520 L190 470 L310 570 M1480 585 L1560 470"/>
+  </g>
+  <g>
+    <circle cx="120" cy="640" r="46" fill="url(#fire)"/><circle cx="120" cy="640" r="4" fill="#fff3d6"/>
+    <circle cx="310" cy="570" r="58" fill="url(#fire)"/><circle cx="310" cy="570" r="5" fill="#fff3d6"/>
+    <circle cx="455" cy="660" r="40" fill="url(#fire)"/><circle cx="455" cy="660" r="3.6" fill="#fff3d6"/>
+    <circle cx="620" cy="540" r="52" fill="url(#fire)"/><circle cx="620" cy="540" r="4.6" fill="#fff3d6"/>
+    <circle cx="780" cy="615" r="38" fill="url(#fire)"/><circle cx="780" cy="615" r="3.4" fill="#fff3d6"/>
+    <circle cx="935" cy="505" r="56" fill="url(#fire)"/><circle cx="935" cy="505" r="5" fill="#fff3d6"/>
+    <circle cx="1120" cy="600" r="44" fill="url(#fire)"/><circle cx="1120" cy="600" r="4" fill="#fff3d6"/>
+    <circle cx="1300" cy="520" r="60" fill="url(#fire)"/><circle cx="1300" cy="520" r="5.2" fill="#fff3d6"/>
+    <circle cx="1480" cy="585" r="42" fill="url(#fire)"/><circle cx="1480" cy="585" r="3.8" fill="#fff3d6"/>
+    <circle cx="560" cy="780" r="34" fill="url(#fire)"/><circle cx="560" cy="780" r="3" fill="#fff3d6"/>
+    <circle cx="900" cy="745" r="36" fill="url(#fire)"/><circle cx="900" cy="745" r="3.2" fill="#fff3d6"/>
+    <circle cx="1260" cy="720" r="32" fill="url(#fire)"/><circle cx="1260" cy="720" r="3" fill="#fff3d6"/>
+    <circle cx="210" cy="760" r="30" fill="url(#fire)"/><circle cx="210" cy="760" r="2.8" fill="#fff3d6"/>
+    <circle cx="1450" cy="655" r="28" fill="url(#fire)"/><circle cx="1450" cy="655" r="2.6" fill="#fff3d6"/>
+    <circle cx="60" cy="520" r="26" fill="url(#fire)"/><circle cx="60" cy="520" r="2.4" fill="#fff3d6"/>
+    <circle cx="190" cy="470" r="30" fill="url(#fire)"/><circle cx="190" cy="470" r="2.8" fill="#fff3d6"/>
+    <circle cx="390" cy="430" r="28" fill="url(#fire)"/><circle cx="390" cy="430" r="2.6" fill="#fff3d6"/>
+    <circle cx="1010" cy="380" r="26" fill="url(#fire)"/><circle cx="1010" cy="380" r="2.4" fill="#fff3d6"/>
+    <circle cx="1380" cy="400" r="30" fill="url(#fire)"/><circle cx="1380" cy="400" r="2.8" fill="#fff3d6"/>
+    <circle cx="1560" cy="470" r="24" fill="url(#fire)"/><circle cx="1560" cy="470" r="2.2" fill="#fff3d6"/>
+  </g>
+  <g fill="#fff3d6">
+    <circle cx="140" cy="120" r="1.4" opacity=".8"/><circle cx="260" cy="200" r="1.1" opacity=".6"/>
+    <circle cx="420" cy="90" r="1.3" opacity=".7"/><circle cx="600" cy="170" r="1" opacity=".5"/>
+    <circle cx="760" cy="70" r="1.5" opacity=".85"/><circle cx="880" cy="210" r="1.1" opacity=".55"/>
+    <circle cx="1040" cy="120" r="1.2" opacity=".7"/><circle cx="1180" cy="60" r="1.4" opacity=".8"/>
+    <circle cx="1330" cy="180" r="1" opacity=".5"/><circle cx="1500" cy="110" r="1.3" opacity=".75"/>
+    <circle cx="330" cy="290" r="1" opacity=".45"/><circle cx="700" cy="300" r="1.1" opacity=".5"/>
+    <circle cx="1230" cy="290" r="1.2" opacity=".6"/><circle cx="90" cy="330" r="1" opacity=".4"/>
+  </g>
+</svg>
