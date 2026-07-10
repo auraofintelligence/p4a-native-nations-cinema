@@ -34,7 +34,7 @@ That means you may not:
 
 ## 3. Native Nations Exception
 
-The self-onboarding pathway is part of the design of this project. Native nations, Indigenous peoples and their own governing and community organisations may fork, adapt, translate and self-host this work for their own community purposes — including internal governance and community-controlled services — without seeking further permission, provided the work is not on-sold to third parties as a commercial product. Each nation's entry in the atlas remains that nation's own material, not covered by this licence, and may be withdrawn by the nation at any time.
+The self-onboarding pathway is part of the design of this project. Native nations, Indigenous peoples and their own governing and community organisations may take a full copy of this work, adapt it, translate it and host it themselves for their own community purposes — including internal governance and community-controlled services — without seeking further permission, provided the work is not on-sold to third parties as a commercial product. Each nation's entry in the atlas remains that nation's own material, not covered by this licence, and may be withdrawn by the nation at any time.
 
 ## 4. Commercial Rights
 

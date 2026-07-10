@@ -1,6 +1,6 @@
 # Native Nations of the World — Sovereign Co-Evolution Lab
 
-A forkable, static, offline-friendly lab in the P4A cinema family, addressed to native nations of the world: Indigenous data sovereignty, decentralised compute, reciprocity economics (the C-Hour) and the long road toward revised agreements — offered as pathways to consider, never directions to follow.
+A free-to-copy, static, offline-friendly lab in the P4A cinema family, addressed to native nations of the world: Indigenous data sovereignty, decentralised compute, reciprocity economics (the C-Hour) and the long road toward revised agreements — offered as pathways to consider, never directions to follow.
 
 **Live site:** https://auraofintelligence.github.io/p4a-native-nations-cinema/
 

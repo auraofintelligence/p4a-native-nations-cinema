@@ -1,6 +1,6 @@
 # Onboard With An Agent
 
-This file is a pasteable prompt for a nation, people or community organisation that wants its own version of this lab — built by its own AI assistant, reviewed by its own people, hosted wherever it chooses — without manually forking and rewriting the code.
+This file is a pasteable prompt for a nation, people or community organisation that wants its own version of this lab — built by its own AI assistant, reviewed by its own people, hosted wherever it chooses — without anyone needing to read or write code by hand.
 
 Use it like this:
 
@@ -47,5 +47,5 @@ Build order: propose a sitemap first and stop for approval; then build one page 
 ## After the build
 
 - Review with the people who hold authority. Nothing is published until they say so.
-- Host under your own account. Your fork answers to you, not to this repository.
+- Host under your own account. Your copy of this project answers to you, not to this one.
 - If you would like your site linked from the atlas here, the onboarding room explains the entry template. If not, no link will ever be made.

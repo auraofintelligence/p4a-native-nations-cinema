@@ -53,7 +53,7 @@
       id: 'pathways',
       num: '04',
       label: 'The pathways',
-      blurb: 'Where a nation, a person or a fork takes over. No funnels, no sign-up walls, no asks.',
+      blurb: 'Where a nation, a person, or someone\'s own copy of this site takes over. No funnels, no sign-up walls, no asks.',
       links: [
         { href: 'pages/onboard.html', title: 'Add your nation', note: 'Self-onboarding on your own terms — including by leaving entirely.' },
         { href: 'pages/abundance.html', title: 'Joyful responsible abundance', note: 'The reframe: more time, held threats, and who the freed hours belong to.' }
@@ -62,7 +62,7 @@
   ];
 
   const EXTERNAL = [
-    { href: 'https://github.com/auraofintelligence/p4a-native-nations-cinema', title: 'Fork on GitHub' },
+    { href: 'https://github.com/auraofintelligence/p4a-native-nations-cinema', title: 'Copy this whole site' },
     { href: 'https://github.com/auraofintelligence/p4a-native-nations-cinema/blob/main/ONBOARD_WITH_AN_AGENT.md', title: 'Onboard with an agent' },
     { href: 'https://auraofintelligence.github.io/p4a-xyz-cinema/', title: 'P4A — the Australian workbench' },
     { href: 'https://auraofintelligence.github.io/p4a-oceania-cinema/', title: 'P4A Oceania — regional lab' },
