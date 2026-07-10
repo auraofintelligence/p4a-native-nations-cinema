@@ -3033,3 +3033,17 @@ html:not(.js) .kintsugi-seam .seam-light { display: none; }
 /* No-JS fallback: reveal animation only runs when site-nav.js has stamped the html.js class.
    Without JavaScript every panel is simply visible — low-bandwidth readers first. */
 html:not(.js) .reveal { opacity: 1; transform: none; filter: none; }
+
+/* Purple variant of the instrument quote, for quoting our own drafts without dressing them gold. */
+blockquote.instrument-quote.proposal-quote { border-left-color: var(--proposal); background: rgba(111, 34, 200, .1); color: #f3e7ff; }
+
+/* ---------- Song doorways (culture register) ----------
+   A third, smaller register: culture. Ember-coloured, neither record nor
+   proposal — the resonance layer. Frames are 16:9 and lazy-loaded. */
+.chip-culture { border: 1px solid rgba(255, 157, 77, .6); color: var(--ember); background: rgba(255, 157, 77, .08); }
+.chip-culture::before { background: var(--ember); box-shadow: 0 0 8px rgba(255, 157, 77, .8); }
+.panel-culture { border-left: 3px solid var(--ember); }
+.panel-culture .eyebrow { color: var(--ember); }
+.song-frame { position: relative; width: min(100%, 36rem); margin: 1.1rem 0; padding: .6rem; border: 1px solid rgba(255, 214, 110, .4); border-radius: var(--radius); background: linear-gradient(180deg, rgba(30, 15, 4, .95), rgba(8, 3, 1, .98)); box-shadow: 0 0 0 1px rgba(255, 214, 110, .14), 0 24px 80px rgba(0, 0, 0, .4); }
+.song-frame iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: calc(var(--radius) - .4rem); background: #050008; }
+blockquote.instrument-quote.culture-quote { border-left-color: var(--ember); background: rgba(255, 157, 77, .07); color: #ffe9d2; }

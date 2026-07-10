@@ -32,7 +32,7 @@
       label: 'The record',
       blurb: 'Established instruments, quoted and cited. Gold panels. Verify everything at the source.',
       links: [
-        { href: 'pages/instruments.html', title: 'Rights instruments', note: 'UNDRIP, FPIC, ILO 169, Nagoya, the WIPO treaty — quoted, dated, linked.' },
+        { href: 'pages/instruments.html', title: 'Rights instruments', note: 'UNDRIP, FPIC, ILO 169, Nagoya, WIPO — quoted, dated, and questioned: who held each pen.' },
         { href: 'pages/data-sovereignty.html', title: 'Data sovereignty', note: 'CARE, OCAP®, Maiam nayri Wingara, Te Mana Raraunga, Local Contexts.' },
         { href: 'pages/treaty-atlas.html', title: 'Treaty atlas', note: 'Living, contested, broken and unwritten agreements, mapped worldwide.' }
       ]
@@ -44,7 +44,8 @@
       blurb: 'P4A’s own provisional patterns. Purple panels. React, revise, refuse — all three are welcome.',
       links: [
         { href: 'pages/compute.html', title: 'Sovereign compute', note: 'The L0–L3 gradient: phones, kiosks, library racks, and why the cloud is optional.' },
-        { href: 'pages/c-hour.html', title: 'The C-Hour', note: 'A receipt for one verified hour of care — mobilised, never monetised.' },
+        { href: 'pages/c-hour.html', title: 'The C-Hour', note: 'The reason this site exists: one verified hour of care = one C-Hour, with a one-page legislative ask.' },
+        { href: 'pages/surge.html', title: 'The heart-first surge', note: 'Find the care, count the care, then bring the machines — a civic surge pattern for any nation.' },
         { href: 'pages/reciprocity-treaty.html', title: 'Reciprocity treaty', note: 'From local ledgers toward revised agreements: a kintsugi protocol.' }
       ]
     },

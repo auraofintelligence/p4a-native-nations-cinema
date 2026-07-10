@@ -9,7 +9,8 @@ A forkable, static, offline-friendly lab in the P4A cinema family, addressed to 
 Everything on the site is colour-coded by provenance, and never mixed:
 
 - **Gold panels — the established record.** Real instruments, quoted exactly and cited: UNDRIP, FPIC, ILO Convention 169, the Nagoya Protocol, the WIPO treaty on genetic resources, the CARE Principles, the First Nations principles of OCAP®, the Maiam nayri Wingara principles, Te Mana Raraunga, Local Contexts TK & BC Labels, and a world-edition treaty atlas.
-- **Purple panels — P4A proposals.** Rapid iterations from one workbench: the L0–L3 sovereign compute gradient, the Community-Hour (a receipt for care, mobilised never monetised), and a kintsugi protocol for repairing broken agreements. They contain errors by the nature of their speed. React, revise, refuse — all three are welcome.
+- **Purple panels — P4A proposals.** Rapid iterations from one workbench: the Community-Hour (a receipt for care, mobilised never monetised — the site's declared purpose, with a one-page legislative ask), the heart-first civic surge, the L0–L3 sovereign compute gradient, and a kintsugi protocol for repairing broken agreements. They contain errors by the nature of their speed. React, revise, refuse — all three are welcome.
+- **Ember panels — culture.** Song doorways from the author's own music (Shifting Sands of Timeless Redlands, Kintsugi Protocol, and the Starseed Code hymns). Neither record nor proposal: the resonance layer, each naming its maker.
 
 ## Standing commitments
 
@@ -36,7 +37,8 @@ pages/
   data-sovereignty.html        — record: CARE, OCAP®, MnW, TMR, USIDSN, Local Contexts
   treaty-atlas.html            — record: world treaty atlas + kintsugi shelf
   compute.html                 — proposal: L0–L3 sovereign compute gradient
-  c-hour.html                  — proposal: the Community-Hour
+  c-hour.html                  — proposal: the Community-Hour + the legislative ask
+  surge.html                   — proposal: the heart-first civic surge
   reciprocity-treaty.html      — proposal: kintsugi protocol, ladder to a treaty
   onboard.html                 — pathways: self-onboarding, entry template, refusal honoured
   abundance.html               — pathways: joyful responsible abundance, threats held calmly
