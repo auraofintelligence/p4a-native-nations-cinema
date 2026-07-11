@@ -34,7 +34,7 @@ That means you may not:
 
 ## 3. Native Nations Exception
 
-The self-onboarding pathway is part of the design of this project. Native nations, Indigenous peoples and their own governing and community organisations may take a full copy of this work, adapt it, translate it and host it themselves for their own community purposes — including internal governance and community-controlled services — without seeking further permission, provided the work is not on-sold to third parties as a commercial product. Each nation's entry in the atlas remains that nation's own material, not covered by this licence, and may be withdrawn by the nation at any time.
+The self-onboarding pathway is part of the design of this project. Native nations, Indigenous peoples and their own governing and community organisations may take a full copy of this work, adapt it, translate it and host it themselves for their own community purposes, including internal governance and community-controlled services, without seeking further permission, provided the work is not on-sold to third parties as a commercial product. Each nation's entry in the atlas remains that nation's own material, not covered by this licence, and may be withdrawn by the nation at any time.
 
 ## 4. Commercial Rights
 
@@ -52,7 +52,7 @@ You are responsible for what you put into the tool, what you export, and where y
 
 This licence only covers original material created by Luke Nathan Hayes / Strange But True / Aura of Intelligence.
 
-Quoted instruments and principles — including UNDRIP, the CARE Principles, the First Nations principles of OCAP® (a registered trademark of the First Nations Information Governance Centre), the Maiam nayri Wingara principles, and all treaty texts — belong to their peoples, authors and stewards. This licence claims nothing over them.
+Quoted instruments and principles, including UNDRIP, the CARE Principles, the First Nations principles of OCAP® (a registered trademark of the First Nations Information Governance Centre), the Maiam nayri Wingara principles, and all treaty texts, belong to their peoples, authors and stewards. This licence claims nothing over them.
 
 Third-party libraries, fonts, APIs, platforms, services or embedded material keep their own licences.
 

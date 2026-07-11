@@ -1,5 +1,5 @@
 /*
- * Native Nations chapter — site chrome.
+ * Native Nations chapter, site chrome.
  * One data file describes every public room. The header, full-screen index,
  * breadcrumbs and footer explore-columns are all generated from it, so new
  * pages only need an entry here to appear everywhere.
@@ -32,7 +32,7 @@
       label: 'The record',
       blurb: 'Established instruments, quoted and cited. Gold panels. Verify everything at the source.',
       links: [
-        { href: 'pages/instruments.html', title: 'Rights instruments', note: 'UNDRIP, FPIC, ILO 169, Nagoya, WIPO — quoted, dated, and questioned: who held each pen.' },
+        { href: 'pages/instruments.html', title: 'Rights instruments', note: 'UNDRIP, FPIC, ILO 169, Nagoya, WIPO; quoted, dated, and questioned: who held each pen.' },
         { href: 'pages/data-sovereignty.html', title: 'Data sovereignty', note: 'CARE, OCAP®, Maiam nayri Wingara, Te Mana Raraunga, Local Contexts.' },
         { href: 'pages/treaty-atlas.html', title: 'Treaty atlas', note: 'Living, contested, broken and unwritten agreements, mapped worldwide.' }
       ]
@@ -41,11 +41,11 @@
       id: 'proposals',
       num: '03',
       label: 'The proposals',
-      blurb: 'P4A’s own provisional patterns. Purple panels. React, revise, refuse — all three are welcome.',
+      blurb: 'P4A’s own provisional patterns. Purple panels. React, revise, refuse, all three are welcome.',
       links: [
         { href: 'pages/compute.html', title: 'Sovereign compute', note: 'The L0–L3 gradient: phones, kiosks, library racks, and why the cloud is optional.' },
         { href: 'pages/c-hour.html', title: 'The C-Hour', note: 'The reason this site exists: one verified hour of care = one C-Hour, with a one-page legislative ask.' },
-        { href: 'pages/surge.html', title: 'The heart-first surge', note: 'Find the care, count the care, then bring the machines — a civic surge pattern for any nation.' },
+        { href: 'pages/surge.html', title: 'The heart-first surge', note: 'Find the care, count the care, then bring the machines: a civic surge pattern for any nation.' },
         { href: 'pages/reciprocity-treaty.html', title: 'Reciprocity treaty', note: 'From local ledgers toward revised agreements: a kintsugi protocol.' }
       ]
     },
@@ -55,7 +55,7 @@
       label: 'The pathways',
       blurb: 'Where a nation, a person, or someone\'s own copy of this site takes over. No funnels, no sign-up walls, no asks.',
       links: [
-        { href: 'pages/onboard.html', title: 'Add your nation', note: 'Self-onboarding on your own terms — including by leaving entirely.' },
+        { href: 'pages/onboard.html', title: 'Add your nation', note: 'Self-onboarding on your own terms, including by leaving entirely.' },
         { href: 'pages/abundance.html', title: 'Joyful responsible abundance', note: 'The reframe: more time, held threats, and who the freed hours belong to.' }
       ]
     }
@@ -64,9 +64,9 @@
   const EXTERNAL = [
     { href: 'https://github.com/auraofintelligence/p4a-native-nations-cinema', title: 'Copy this whole site' },
     { href: 'https://github.com/auraofintelligence/p4a-native-nations-cinema/blob/main/ONBOARD_WITH_AN_AGENT.md', title: 'Onboard with an agent' },
-    { href: 'https://auraofintelligence.github.io/p4a-xyz-cinema/', title: 'P4A — the Australian workbench' },
-    { href: 'https://auraofintelligence.github.io/p4a-oceania-cinema/', title: 'P4A Oceania — regional lab' },
-    { href: 'https://localcontexts.org/', title: 'Local Contexts — TK & BC Labels' },
+    { href: 'https://auraofintelligence.github.io/p4a-xyz-cinema/', title: 'P4A, the Australian workbench' },
+    { href: 'https://auraofintelligence.github.io/p4a-oceania-cinema/', title: 'P4A Oceania, regional lab' },
+    { href: 'https://localcontexts.org/', title: 'Local Contexts, TK & BC Labels' },
     { href: 'https://www.gida-global.org/', title: 'Global Indigenous Data Alliance' }
   ];
 

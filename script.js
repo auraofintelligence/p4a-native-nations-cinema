@@ -1,4 +1,4 @@
-/* Native Nations chapter — page behaviour.
+/* Native Nations chapter, page behaviour.
    Progressive enhancement only: every page reads fully with JS off. */
 
 const reveals = document.querySelectorAll('.reveal');
