@@ -1,37 +1,36 @@
 /* Native Nations chapter, page behaviour.
    Progressive enhancement only: every page reads fully with JS off. */
 
-const reveals = document.querySelectorAll('.reveal');
-const showReveal = (el) => el.classList.add('is-visible');
-
-if ('IntersectionObserver' in window) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      showReveal(entry.target);
-      observer.unobserve(entry.target);
-    });
-  }, { threshold: 0, rootMargin: '0px 0px -6% 0px' });
-  reveals.forEach((el) => observer.observe(el));
-} else {
-  reveals.forEach(showReveal);
-}
-
-/* Kintsugi seams draw themselves in gold as they enter the viewport.
-   Without JS (or with reduced motion) the CSS shows them fully drawn. */
-const seams = document.querySelectorAll('.kintsugi-seam');
-if ('IntersectionObserver' in window) {
-  const seamObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add('is-drawn');
-      seamObserver.unobserve(entry.target);
-    });
-  }, { threshold: 0.6 });
-  seams.forEach((el) => seamObserver.observe(el));
-} else {
-  seams.forEach((el) => el.classList.add('is-drawn'));
-}
+/* Reveal on scroll, and kintsugi seams drawing themselves in gold.
+   Deliberately NOT IntersectionObserver. Content visibility must never
+   depend on an observer callback arriving: browsers throttle or delay IO
+   in background tabs, prerendered pages and low-power modes, which can
+   leave a section at opacity 0 for the whole visit. A plain geometry sweep
+   on scroll and resize gives the same effect with nothing that can strand
+   content. Without JS the CSS shows every panel and seam already drawn. */
+const revealPending = new Set([
+  ...document.querySelectorAll('.reveal'),
+  ...document.querySelectorAll('.kintsugi-seam'),
+]);
+const showReveal = (el) =>
+  el.classList.add(el.classList.contains('kintsugi-seam') ? 'is-drawn' : 'is-visible');
+const sweepReveals = () => {
+  if (!revealPending.size) return;
+  /* Only the top edge is tested, so anything scrolled past stays revealed:
+     an anchor jump or a restored scroll position cannot skip a block. */
+  const line = window.innerHeight * 0.92;
+  revealPending.forEach((el) => {
+    const r = el.getBoundingClientRect();
+    if (r.top < line) { showReveal(el); revealPending.delete(el); }
+  });
+};
+sweepReveals();
+window.addEventListener('scroll', sweepReveals, { passive: true });
+window.addEventListener('resize', sweepReveals, { passive: true });
+window.addEventListener('load', sweepReveals);
+/* Late-layout safety net (fonts and images shifting geometry after first paint). */
+setTimeout(sweepReveals, 400);
+setTimeout(sweepReveals, 1500);
 
 const normaliseNavPath = (value) => {
   const url = new URL(value, location.href);
