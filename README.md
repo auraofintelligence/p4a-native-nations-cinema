@@ -20,6 +20,34 @@ Everything on the site is colour-coded by provenance, and never mixed:
 - No analytics, no accounts, no cookies, no forms. Static pages only.
 - Correction of anything, for any reason, is one message away: open an issue.
 
+<!-- github-organisation:start -->
+
+## Project links and history
+
+- First substantive build: 10 July 2026.
+- GitHub repository: [p4a-native-nations-cinema](https://github.com/auraofintelligence/p4a-native-nations-cinema).
+- Public site: [visit the public site](https://auraofintelligence.github.io/p4a-native-nations-cinema/).
+
+## Related public projects
+
+Each link below reflects an evidenced family, lineage or direct connection. This project has 8 relevant public connections.
+
+### Direct and other supported connections
+
+- [australian-law-2012-lukes-relevance](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance) - [public page](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/) - explicit cross-reference.
+
+### P4A and Purple builds
+
+- [p4a-oceania-cinema](https://github.com/auraofintelligence/p4a-oceania-cinema) - [public page](https://auraofintelligence.github.io/p4a-oceania-cinema/) - later build; p4a-oceania-cinema is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+- [p4a-oceania-expansion-lab](https://github.com/auraofintelligence/p4a-oceania-expansion-lab) - [public page](https://auraofintelligence.github.io/p4a-oceania-expansion-lab/) - later build; p4a-oceania-expansion-lab is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+- [p4a-xyz-cinema](https://github.com/auraofintelligence/p4a-xyz-cinema) - [public page](https://p4a.xyz/) - later build; p4a-xyz-cinema is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+- [p4a_xyz](https://github.com/auraofintelligence/p4a_xyz) - [public page](https://auraofintelligence.github.io/p4a_xyz/) - later build; p4a_xyz is earlier, explicit cross-reference, ordered build lineage, shared named build family.
+- [P4Australia](https://github.com/auraofintelligence/P4Australia) - [public page](https://auraofintelligence.github.io/P4Australia/) - later build; P4Australia is earlier, ordered build lineage, shared named build family.
+- [purple01](https://github.com/auraofintelligence/purple01) - [public page](https://auraofintelligence.github.io/purple01/) - later build; purple01 is earlier, ordered build lineage, shared named build family.
+- [Purple02](https://github.com/auraofintelligence/Purple02) - [public page](https://auraofintelligence.github.io/Purple02/) - later build; Purple02 is earlier, ordered build lineage, shared named build family.
+
+<!-- github-organisation:end -->
+
 ## Self-onboarding
 
 Nations and peoples not visible here can add themselves entirely on their own terms, see the [onboarding room](https://auraofintelligence.github.io/p4a-native-nations-cinema/pages/onboard.html), the entry template inside it, and [ONBOARD_WITH_AN_AGENT.md](ONBOARD_WITH_AN_AGENT.md) for building your own version with your own AI assistant. Declining is a first-class outcome.
